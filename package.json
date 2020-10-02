@@ -1,0 +1,25 @@
+{
+  "name": "gittest",
+  "version": "1.0.0",
+  "description": "Git and NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "stop": "node server.stop.js",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adavila0329/gitTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adavila0329/gitTest/issues"
+  },
+  "homepage": "https://github.com/adavila0329/gitTest#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
